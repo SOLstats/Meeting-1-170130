@@ -27,8 +27,8 @@
 #install.packages("gvlma")
 #---------------------------------------------------
 #SET WORKING DIRECTORY, LOAD DATAFILE
-setwd("/Users/peerchristensen/Desktop/rum project")
-rum = read.csv2("rum_to_R.csv",header=T,stringsAsFactors = T,sep=";")
+setwd("YOUR DIRECTORY")
+rum = read.csv2("rumData.csv",header=T,stringsAsFactors = T,sep=";")
 #---------------------------------------------------
 #CLEAN AND/OR SUBSET DATA
 #subsetting rums classed as "Aged"
