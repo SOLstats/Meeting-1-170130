@@ -28,7 +28,7 @@
 #---------------------------------------------------
 #SET WORKING DIRECTORY, LOAD DATAFILE
 setwd("YOUR DIRECTORY")
-rum = read.csv2("rumData.csv",header=T,stringsAsFactors = T,sep=";")
+rum = read.csv2("PC_rumData.csv",header=T,stringsAsFactors = T,sep=";")
 #---------------------------------------------------
 #CLEAN AND/OR SUBSET DATA
 #subsetting rums classed as "Aged"
